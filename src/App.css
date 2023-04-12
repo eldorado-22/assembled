@@ -1,0 +1,31 @@
+.navBar a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.navBar a:hover{
+    color: #7df149;
+    transition: .4s;
+}
+
+button {
+    padding: 10px 30px;
+    color: #FFFFFF;
+    background: #03570b;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    transition: .5s;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #7df149;
+    transition: 1.5s;
+
+}

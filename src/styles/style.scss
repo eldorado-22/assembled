@@ -1,22 +1,73 @@
 @import "Header/header";
 @import "Hero/hero";
+@import "Pratice/pratice";
 @import "Footer/footer";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .container {
-  width: 90%;
+  width: 1140px;
   margin: 0 auto;
 }
+
 body, html {
   scroll-behavior: smooth;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
+
+
+.block {
+  width: 40%;
+  background: rgba(72, 91, 215, 0.99);
+  height: 45vh;
+  margin: 10px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-align: center;
+
+  //animation: modal 2s ease-in-out;
+  //clip-path: polygon(49% 0, 100% 47%, 50% 100%, 0 49%);
 }
+
+.block input {
+  background: #fff;
+  outline: none;
+  //border: none;
+  color: #fff;
+  text-align: center;
+}
+
+::placeholder {
+  color: blue;
+}
+
+//@keyframes modal {
+//  0% {
+//    transform: translateY(-100px);
+//  }
+//  30% {
+//    transform: translateX(100px);
+//  }
+//  50% {
+//    transform: translateY(100px);
+//  }
+//  70% {
+//    transform: translateX(-100px);
+//  }
+//  100% {
+//    transform: translateY(-100px);
+//  }
+//}
+
+
+
+

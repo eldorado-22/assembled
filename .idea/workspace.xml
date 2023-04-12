@@ -5,17 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7a0e75-f025-48d2-9a92-ac0df4b3ebe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Footer/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Hero/hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/blog4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Meat/meat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Recipes/recipes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Support/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Pratice/pratice.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/new-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Hero/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Hero/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +66,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="hero.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Hero/hero.js" working-dir="$PROJECT_DIR$/src/components/Hero">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.hero.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +85,29 @@
       <option name="presentableId" value="Default" />
       <updated>1677049780540</updated>
       <workItem from="1677049781690" duration="5408000" />
-      <workItem from="1677078004984" duration="612000" />
+      <workItem from="1677078004984" duration="920000" />
+      <workItem from="1677301308147" duration="3104000" />
+      <workItem from="1677311177847" duration="3315000" />
+      <workItem from="1677314607556" duration="183000" />
+      <workItem from="1677318875355" duration="17000" />
+      <workItem from="1677330254432" duration="622000" />
+      <workItem from="1677427292050" duration="1496000" />
+      <workItem from="1677477530883" duration="71000" />
+      <workItem from="1677477610651" duration="2000" />
+      <workItem from="1677480613229" duration="14000" />
+      <workItem from="1677482373056" duration="3767000" />
+      <workItem from="1677654538927" duration="2029000" />
+      <workItem from="1677656641454" duration="2537000" />
+      <workItem from="1677666895886" duration="1879000" />
+      <workItem from="1677684676236" duration="597000" />
+      <workItem from="1677725635139" duration="4588000" />
+      <workItem from="1677915937010" duration="142000" />
+      <workItem from="1677994070552" duration="683000" />
+      <workItem from="1678026522638" duration="1052000" />
+      <workItem from="1678599518182" duration="627000" />
+      <workItem from="1678942444385" duration="877000" />
+      <workItem from="1679672209033" duration="707000" />
+      <workItem from="1679715510656" duration="134000" />
     </task>
     <servers />
   </component>

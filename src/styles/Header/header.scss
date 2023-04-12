@@ -1,6 +1,6 @@
 #header {
   backdrop-filter: blur(5px);
-  width: 105%;
+  width: 100%;
   background: #070707;
   padding: 30px 0;
   animation: head 2s ease-in-out;
@@ -16,62 +16,73 @@
     justify-content: space-between;
 
     img {
-      width: 15%;
+      width: 120%;
     }
 
-    &--nav {
-      width: 78%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      a {
-        margin: 0 20px;
-        font-weight: 400;
-        font-size: 24px;
-        color: #FFFFFF;
-        transition: .6s;
-
-        &:hover {
-          color: #7CBA72;
-        }
-      }
-
-      &__one {
-        font-weight: 400;
-        font-size: 14px;
-        text-align: center;
-        color: #40AB7E;
-        padding: 10px 50px;
-        border: 2px solid #40AB7E;
-        border-radius: 30px;
-        transition: .6s;
-        background: transparent;
-        margin: 0 20px;
-
-        &:hover {
-          color: #070707;
-          background: #7CBA72;
-        }
-      }
-
-      &__two {
-        font-weight: 400;
-        font-size: 14px;
-        text-align: center;
-        color: #070707;
-        padding: 10px 40px;
-        border: 2px solid #070707;
-        border-radius: 30px;
-        transition: .6s;
-        background: #7CBA72;
-
-        &:hover {
-          color: #40AB7E;
-          background: #070707;
-          border: 2px solid #7CBA72;
+    //&--nav {
+    //  width: 10%;
+    //  display: flex;
+    //  align-items: center;
+    //  justify-content: space-between;
+    //
+    //  a {
+    //    margin: 0 10px;
+    //    font-weight: 400;
+    //    font-size: 24px;
+    //    color: #FFFFFF;
+    //    transition: .6s;
+    //
+    //    &:hover {
+    //      color: #7CBA72;
+    //    }
+    //  }
+    //
+    //  &__one {
+    //    font-weight: 400;
+    //    font-size: 14px;
+    //    text-align: center;
+    //    color: #40AB7E;
+    //    padding: 10px 50px;
+    //    border: 2px solid #40AB7E;
+    //    border-radius: 30px;
+    //    transition: .6s;
+    //    background: transparent;
+    //    margin: 0 20px;
+    //
+    //    &:hover {
+    //      color: #070707;
+    //      background: #7CBA72;
+    //    }
+    //  }
+    //
+    //  &__two {
+    //    font-weight: 400;
+    //    font-size: 14px;
+    //    text-align: center;
+    //    color: #070707;
+    //    padding: 10px 50px;
+    //    border: 2px solid #070707;
+    //    border-radius: 30px;
+    //    transition: .6s;
+    //    background: #7CBA72;
+    //
+    //    &:hover {
+    //      color: #40AB7E;
+    //      background: #070707;
+    //      border: 2px solid #7CBA72;
+    //    }
+    //  }
+    //}
+    
+    &--burger {
+      #bar1 {
+        .bar {
+          width: 20px;
+          height: 4px;
+          background: #fff;
         }
       }
     }
   }
 }
+

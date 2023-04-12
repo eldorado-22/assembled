@@ -1,25 +1,29 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from './../../assets/img/logo.svg'
+import {Link} from "react-router-dom";
 
 const Index = () => {
+    const [burger, setBurger] = useState(true)
+
     return (
+
         <header id='header'>
             <div className="container">
                 <div className="header">
-                    <img src={logo} alt={logo}/>
-                    <div className='header--nav'>
-                        <a href='#'>Home</a>
-                        <a href='#'>Recipes</a>
-                        <a href='#'>Meat</a>
-                        <a href='#'>About</a>
-                        <a href='#'>Blog</a>
-                        <a href='#'>Support</a>
-                        <button className='header--nav__one'>Sign in</button>
-                        <button className='header--nav__two'>Request demo</button>
+                    <Link to={'/'}>
+                        <img src={logo} alt={logo}/>
+                    </Link>
+                    <div className="navBar">
+                        <a href="#">Home</a>
+                        <a href="#">Support</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact</a>
                     </div>
+                    <button>Sign Up</button>
                 </div>
             </div>
         </header>
+
     );
 };
 
